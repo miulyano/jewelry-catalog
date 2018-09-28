@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="icon" type="image/png" href="img/favicon/16*16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="img/favicon/32*32.png" sizes="32x32">
+	<link rel="apple-touch-icon-precomposed" href="img/favicon/57*57.png" sizes="57x57">
+	<link rel="apple-touch-icon-precomposed" href="img/favicon/72*72.png" sizes="72x72">
+	<link rel="apple-touch-icon-precomposed" href="img/favicon/114*114.png" sizes="114x114">
+	<link rel="apple-touch-icon-precomposed" href="img/favicon/120*120.png" sizes="120x120">
+	<link rel="apple-touch-icon-precomposed" href="img/favicon/144*144.png" sizes="144x144">
+	<link rel="apple-touch-icon-precomposed" href="img/favicon/152*152.png" sizes="152x152">
+	<title>Ювелирный каталог без забот!</title>
+</head>
+<body id="body">
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript" >
+    (function (d, w, c) {
+      (w[c] = w[c] || []).push(function() {
+        try {
+          w.yaCounter47723545 = new Ya.Metrika({
+            id:47723545,
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+          });
+        } catch(e) { }
+      });
+
+      var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+      if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+      } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/47723545" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+	<div class="overlay-menu" id="overlay-menu"></div>
+	<div id="menu" class="container-fluid menu">
+		<div class="container menu-wrapper">
+			<ul class="row">
+				<li class="col-12 menu-list"><a href="https://demo.mycatalog.pro/user/sign-in/login?demo=1" class="menu-link">Показать каталог</a></li>
+				<li class="col-12 menu-list"><a href="" id="question-button-3" class="menu-link">Задать вопрос</a></li>
+				<li class="col-12 menu-list"><a href="#form" id="application-button" class="menu-link">Подать заявку</a></li>
+			</ul>
+			<button id="button-close" class="button-menu button-menu-close" type="button"><span class="visually-hidden">Закрыть</span></button>
+		</div>
+	</div>
+	<header class="main-header">
+		<section class="container-fluid baner">
+			<h1 class="visually-hidden">Ювелирный каталог без забот!</h1>
+			<nav class="nav">
+	  		<a class="logo">
+				<img
+					src="img/svg/logo.svg"
+					width="100%"
+					alt="Ювелирный каталог" />
+			</a>
+	  		<button id="button-menu" class="button-menu" type="button"><span class="visually-hidden">Меню</span></button>
+				<ul class="nav-list">
+					<li><a href="https://demo.mycatalog.pro/user/sign-in/login?demo=1" class="nav-link">Показать каталог</a></li>
+					<li><a href="" id="question-button-1" class="nav-link">Задать вопрос</a></li>
+					<li><a href="#form" class="nav-link" id="application-button-1">Подать заявку</a></li>
+				</ul>
+			</nav>
+			<section class="imac-box container">
+				<div class="row">
+					<div class="col-12  imac-box-picture">
+						<picture>
+							<source
+								data-srcset="img/576/iMac.png"
+								media="(max-width: 576px)" />
+							<source
+								data-srcset="img/768/iMac.png"
+								media="(max-width: 768px)" />
+							<source
+								data-srcset="img/992/iMac.png"
+								media="(max-width: 991px)" />
+							<source
+								data-srcset="img/defolt/iMac.png"
+								media="(max-width: 1199px)" />
+							<source
+								data-srcset="img/1200/iMac.png" />
+						  <img
+						    src="img/defolt/iMac.png"
+						    width="100%"
+						    class="lazyload"
+						    alt="Отличное решение для оптовой и розничной торговли" />
+						</picture>
+					</div>
+				</div>
+			</section>
+			<div class="scroll">
+				<p>Scroll</p>
+				<span>&darr;</span>
+			</div>
+		</section>
+	</header>
+	<main class="main-box">
+		<section class="container problems">
+			<div class="row">
+				<div class="problems-item col-12 col-lg-3 col-xl-3">
+					<div class="problems-logo-wrapper">
+						<img src="img/svg/catalog.svg" width="130" class="problems-logo" alt="Каталог">
+					</div>
+					<p class="problems-text">Хотите <span class="bold">удобный</span> и<br> <span class="bold">красивый</span> каталог</p>
+				</div>
+				<div class="problems-item col-12 col-lg-3 col-xl-3">
+					<div class="problems-logo-wrapper">
+						<img src="img/svg/developers.svg" width="130" class="problems-logo" alt="Разработчики">
+					</div>
+					<p class="problems-text">Но нет желания содержать<br> <span class="bold">штат разработчиков</span></p>
+				</div>
+				<div class="problems-item col-12 col-lg-3 col-xl-3">
+					<div class="problems-logo-wrapper">
+						<img src="img/svg/dollar.svg" width="130" class="problems-logo" alt="Доллар">
+					</div>
+					<p class="problems-text">Которые делают<br><span class="bold">долго</span> и <span class="bold">дорого</span></p>
+				</div>
+		</div>
+		</section>
+		<section class="container-fluid decision">
+			<div class="row decision-wrapper">
+				<div class=" col-10 col-md-8 col-lg-4 col-xl-4 decision-text">
+					<h1 class="caption decision-text-caption">Есть решение!</h1>
+					<p class="decision-text-paragraph">Мы разработали инновационный продукт, соответствующий всем требованиям современного пользователя, основываясь на многолетних UX исследованиях.</p>
+				</div>
+				<div class="col-9 col-md-6 col-lg-4 col-xl-3 decision-foto">
+					<picture>
+						<source
+							data-srcset="img/576/iPhone.png"
+							media="(max-width: 576px)" />
+						<source
+							data-srcset="img/defolt/iPhone.png" />
+					  <img
+					    src="img/defolt/iPhone.png"
+					    width="100%"
+					    class="lazyload"
+					    alt="Мобильная версия каталога" />
+					</picture>
+				</div>
+			</div>
+		</section>
+		<div class="container-fluid">
+			<section class="advantages">
+				<div class="row advantages-item">
+					<div class="col-12 col-md-12 col-lg-6 col-xl-6 advantages-item-foto adaptive">
+						<picture class="picture">
+							<source
+								data-srcset="img/576/adaptive.gif"
+								media="(max-width: 576px)" />
+							<source
+								data-srcset="img/defolt/adaptive.gif" />
+						  <img
+						    src="img/defolt/adaptive.gif"
+						    width="100%"
+						    class="lazyload"
+						    alt="От больших мониторов до карманных устройств!" />
+						</picture>
+					</div>
+					<div class="col-12 col-md-6 offset-md-3 offset-lg-0 offset-xl-0 col-lg-5 col-xl-5 advantages-item-text">
+						<div class="advantages-item-text-wrapper">
+							<h3 class="advantages-item-text-caption">Превосходная адаптация под любое устройство</h3>
+							<p class="advantages-item-text-paragraph">От широкоформатных мониторов до миниатюрных дисплеев мобильных гаджетов!</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="advantages">
+				<div class="row advantages-item justify-content-center">
+					<div class="col-12 col-md-12 col-lg-6 col-xl-6 advantages-item-foto retina">
+						<picture class="picture">
+							<source
+								data-srcset="img/576/retina.png"
+								media="(max-width: 576px)" />
+							<source
+								data-srcset="img/defolt/retina.png" />
+						  <img
+						    src="img/defolt/retina.png"
+						    width="100%"
+						    class="lazyload"
+						    alt="Превосходная четкость фото на любом устройстве" />
+						</picture>
+					</div>
+					<div class="col-12 col-md-6 offset-md-3 offset-lg-0 offset-xl-0 col-lg-5 col-xl-5 advantages-item-text">
+						<div class="advantages-item-text-wrapper">
+							<h3 class="advantages-item-text-caption">Всегда высокая детализация ваших фото</h3>
+							<p class="advantages-item-text-paragraph">Мы предусмотрели опцию, которая сохраняет резкость изображений даже на экранах с высокой плотностью пиксей!</p>
+							<p class="advantages-item-text-paragraph-ps">(опция доступна при условии высокого качества исходных фотографий)</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="advantages">
+				<div class="row advantages-item">
+					<div class="col-12 col-md-12 col-lg-6 col-xl-6 advantages-item-foto speed">
+						<picture class="picture">
+							<source
+								data-srcset="img/576/speed.gif"
+								media="(max-width: 576px)" />
+							<source
+								data-srcset="img/defolt/speed.gif" />
+						  <img
+						    src="img/defolt/speed.gif"
+						    width="100%"
+						    class="lazyload"
+						    alt="Реактивная скорость работы!" />
+						</picture>
+					</div>
+					<div class="col-12 col-md-6 offset-md-3 offset-lg-0 offset-xl-0 col-lg-5 col-xl-5 advantages-item-text">
+						<div class="advantages-item-text-wrapper">
+							<h3 class="advantages-item-text-caption">Быстрая загрузка каталога для удобства ваших клиентов</h3>
+							<p class="advantages-item-text-paragraph">Все настолько оптимизировано, что пользователь может быть совершенно спокоен - выбирать удобно даже при низкой скорости интернета!</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="container-fluid advantages">
+				<div class="row advantages-item">
+					<div class="col-12 col-md-12 col-lg-6 col-xl-6 advantages-item-foto slide">
+						<picture class="picture">
+							<source
+								data-srcset="img/576/slide.gif"
+								media="(max-width: 576px)" />
+						  <img
+						    src="img/defolt/slide.gif"
+						    width="100%"
+						    class="lazyload"
+						    alt="Галерея-слайдер для изображений" />
+						</picture>
+					</div>
+					<div class="col-12 col-md-6 offset-md-3 offset-lg-0 offset-xl-0 col-lg-5 col-xl-5 advantages-item-text">
+						<div class="advantages-item-text-wrapper">
+							<h3 class="advantages-item-text-caption">Несколько фото для одного изделия</h3>
+							<p class="advantages-item-text-paragraph">Функционал галереи позволит клиенту оценить все достоинства вашего товара еще до совершения покупки!</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="container-fluid bonus-wrapper">
+			<section class="container bonus small small-320">
+				<div class="bonus-text-wrapper">
+					<h2 class="caption bonus-text-caption">Кроме того</h2>
+					<p class="bonus-text-paragraph">Мы подключим Вам следующие бонусные опции:</p>
+				</div>
+				<div class="row">
+					<div class="bonus-item col-12 col-lg-3 col-xl-3">
+						<div class="bonus-logo-wrapper">
+							<img src="img/svg/documentation.svg" width="130" class="bonus-logo" alt="Данные">
+						</div>
+						<p class="bonus-text">Возможность добавления <span class="bold">описания</span> и <span class="bold">цены</span> к изделию</p>
+					</div>
+					<div class="bonus-item col-12 col-lg-3 col-xl-3">
+						<div class="bonus-logo-wrapper">
+							<img src="img/svg/gps.svg" width="130" class="bonus-logo" alt="Поиск">
+						</div>
+						<p class="bonus-text">Быстрый <span class="bold">поиск</span> по артикулу изделия</p>
+					</div>
+					<div class="bonus-item col-12 col-lg-3 col-xl-3">
+						<div class="bonus-logo-wrapper">
+							<img src="img/svg/customizability.svg" width="130" class="bonus-logo" alt="Настройки">
+						</div>
+						<p class="bonus-text">Административную панель для редактирования каталога</p>
+					</div>
+				</div>
+			<div class="bonus-link-wrapper">
+				<a href="https://demo.mycatalog.pro/user/sign-in/login?demo=1" class="button bonus-link-button form-question-button">Показать демо</a>
+			</div>
+		</section>
+	</div>
+	<div class="container-fluid support-wrapper">	
+		<section class="container support">
+			<h2 class="caption support-caption">Мы всегда на связи</h2>
+			<div class="row">
+				<div class="col-12 col-md-12 col-lg-2 col-xl-2 support-logo">
+					<div class="support-logo-wrapper">
+						<img src="img/svg/customer_support.svg" width="130" alt="Техническая поддержка">
+					</div>
+				</div>
+				<div class="col-12 col-md-12 col-lg-7 col-xl-7">
+					<p class="support-text">По всем<a href="" id="question-button-4" class="support-link">техническим вопросам</a>и дополнительным настройкам вашей версии (например: оформление в фирменном стиле).</p>
+				</div>
+			</div>
+		</section>
+	</div>
+	<div class="container-fluid application-wrapper">
+		<a name="form"></a>	
+		<section class="container application">
+			<h2 class="caption application-caption">Оставьте заявку</h2>
+			<p class="application-text">Заполните форму с контактными данными и мы сразу свяжемся с Вами, как только получим заявку на почту!</p>
+			<form action="/" class="row application-form" id="application-form" name="Заявка на каталог" method="post">
+				<div class="col-10 col-md-7 application-input-wrapper">
+	        		<label for="application-name">Ваше имя:<span class="required">*</span></label>
+					<input type="text" name="name" class="application-input" id="application-name" required>
+		      		<label for="application-tel">Ваш телефон:<span class="required">*</span></label>
+					<input type="tel" name="tel" class="application-input" id="application-tel" required>
+					<label for="application-email">Ваш email:</label>
+					<input type="email" name="email" class="application-input" id="application-email">
+				  	<label for="application-comment" class="textarea-label">Ваш комментарий:</label>
+				  	<textarea name="comment" class="application-input" id="application-comment"></textarea>
+					<p class="application-text-allert">Обязательно убедитесь в правильности введенных данных, иначе мы не сможем связаться с Вами!</p>
+				</div>
+				<div class="col-10 col-lg-6 question-input-wrapper button-wrapper">
+					<input type="submit" class="button application-link-button" value="Отправить заявку">
+				</div>
+			</form>
+		</section>
+	</div>
+	<div class="container-fluid advice-wrapper">	
+		<section class="container advice">
+			<h2 class="caption advice-caption">Ваш совет</h2>
+			<div class="row promo">
+				<div class="col-10 col-md-7 col-md-12 col-lg-2 col-xl-2 advice-logo">
+					<div class="advice-logo-wrapper">
+						<img src="img/svg/notifications.svg" width="130" alt="Техническая поддержка">
+					</div>
+				</div>
+				<div class="col-12 col-md-12 col-lg-8 col-xl-8">
+					<p class="advice-text">Мы постоянно развиваемся и улучшаем свои продукты. Помогите нам, проголосуйте за те опции, которые Вы хотели бы видеть в расширенной версии каталога!</p>
+				</div>
+			</div>
+			<form action="/" id="checkbox-form" class="row advice-form" name="Пожелания клиента" method="post">
+				<div class="col-12 col-lg-8">
+					<div class="advice-input-box">
+						<input class="visually-hidden checkbox" tabindex="-1" id="languages" type="checkbox" value="Несколько языков">
+						<label class="label" for="languages" tabindex="0" id="for-languages">Несколько иностранных языков</label>
+					</div>
+					<div class="advice-input-box">
+						<input class="visually-hidden checkbox" tabindex="-1" id="price" type="checkbox" value="Несколько типов цен">
+						<label class="label" for="price" tabindex="0" id="for-price" >Несколько типов цен для разных категорий клиентов</label>
+					</div>
+					<div class="advice-input-box">
+						<input class="visually-hidden checkbox" tabindex="-1" id="range" type="checkbox" value="Несколько типов ассортимента">
+						<label class="label" for="range" tabindex="0" id="for-range" >Разный ассортимент для разных категорий клиентов</label>
+					</div>
+					<div class="advice-input-box">
+						<input class="visually-hidden checkbox" tabindex="-1" id="stock" type="checkbox" value="Наличие на складе">
+						<label class="label" for="stock" tabindex="0" id="for-stock" >Хранение и демонстрация количества на складе</label>
+					</div>
+					<div class="advice-input-box">
+						<input class="visually-hidden checkbox" tabindex="-1" id="check" type="checkbox" value="Выгрузка прайса">
+						<label class="label" for="check" tabindex="0" id="for-check" >Выгрузка печатной версии прайса</label>
+					</div>
+					<div class="advice-input-box">
+						<input class="visually-hidden checkbox" tabindex="-1" id="kits" type="checkbox" value="Комплекты">
+						<label class="label" for="kits" tabindex="0" id="for-kits" >Комплекты</label>
+					</div>
+					<div class="advice-input-box">
+						<input class="visually-hidden checkbox" tabindex="-1" id="collection" type="checkbox" value="Коллекции">
+						<label class="label" for="collection" tabindex="0" id="for-collection" >Коллекции</label>
+					</div>
+					<div class="advice-input-box">
+						<input class="visually-hidden" id="other" tabindex="-1" type="checkbox" value="Другое">
+						<label class="label" for="other" tabindex="0" id="for-other" >Другое</label>
+						<div>
+							<textarea id="comment" name="Пожелание клиента" class="advice-textarea" placeholder="Ваш совет" autofocus></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="col-10 col-lg-6  button-wrapper">
+					<input type="submit" class="button advice-link-button" id="advice-link" value="Отправить совет" disabled>
+				</div>
+				<span class="visually-hidden" id="comment-box"></span>
+			</form>
+		</section>
+	</div>
+</main>
+<footer class="container-fluid footer" id="footer">
+	<div class="row footer-nav">
+		<div class="col-6 offset-3 offset-md-3 offset-lg-0 offset-xl-0 col-lg-2 col-xl-2">
+			<a href="" class="up-button	" id="up-button">Наверх</a>
+		</div>
+		<div class="col-8 footer-link-wrapper">
+			<a href="https://demo.mycatalog.pro/user/sign-in/login?demo=1" class="footer-link">Показать каталог</a>
+			<a href="" id="question-button-2" class="footer-link">Задать вопрос</a>
+			<a href="#form" class="footer-link" id="application-button-2">Подать заявку</a>
+		</div>
+	</div>
+	<div class="row contact">
+		<p>тел.:<a href="tel:+79203839941">+7-920-383-99-41</a></p>
+		<p>•</p>
+		<p>email:<a href="mailto:mycatalog.pro@gmail.com?subject=Вопрос по Ювелирному каталогу">mycatalog.pro@gmail.com</a></p>
+	</div>
+</footer>
+<div class="container-fluid question">
+	<div class="question-overlay"></div>
+	<section class="container question-wrapper">
+	<h2 class="caption">Ваш вопрос</h2>
+	<form action="/" id="question-form" class="row form-question" name="Вопрос клиента" method="post">
+		<div class="col-10 col-md-7 question-input-wrapper">
+	    <label for="question-name">Ваше имя:<span class="required">*</span></label>
+			<input id="question-name" type="text" name="Имя" class="question-input input-name" required>
+	    <label for="question-tel">Ваш телефон:<span class="required">*</span></label>
+			<input id="question-tel" type="tel" name="Телефон" class="question-input" required>
+	    <label for="question-email">Ваш email:</label>
+			<input id="question-email" type="email" name="Электропочта" class="question-input">
+	    <label for="question-comment" class="textarea-label">Ваш вопрос:</label>
+			<textarea id="question-comment" name="Вопрос" class="question-input"></textarea>
+	 		<input type="submit" class="button question-link-button" value="Отправить вопрос">
+	 	</div>
+	</form>
+	<button class="close"><span class="visually-hidden">Закрыть</span></button>
+	</section>
+</div>
+<script src="js/script-min.js"></script>
+</html>
